@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-family: 'PT Serif', serif;
 }
 nav{
@@ -24,20 +23,18 @@ nav{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-
 }
 .main{
     display: flex;
     justify-content: space-between;
     padding: 25px;
 }
-/* button{
-    border:none;
-    background: #FFF;
-} */
 .dropdown{
     width: 170px;
     position: relative;
+}
+.filtered{
+    cursor: pointer;
 }
 .main-menu{
     display: flex;
@@ -47,14 +44,12 @@ nav{
     position: relative;
 }
 .search input{
-   
     width: 400px;
     padding: 15px 0 15px 30px;
     font-size: 14px;
     border-radius: 8px;
     border: none;
     box-shadow:0 0 5px rgb(137, 137, 137)
-    
 }
 .search i{
     position: absolute;
@@ -74,7 +69,6 @@ nav{
 }
 .options{
     padding: 2px 0 15px 0;
-    /* width: 170px; */
     position: absolute;
     background-color: #FFF;
     z-index: 1;
@@ -93,7 +87,6 @@ nav{
 .main-menu p{
     padding-bottom: 15px;
 }
-
 main{
     display: flex;
     justify-content: space-between;
@@ -118,13 +111,12 @@ main{
 }
 .card{
     box-shadow:0 0 5px rgb(176, 176, 176);
-    transition: all 1s ease-in-out;
+    transition: all .4s ease-in;
 }
 .card span{
     color: grey;
 }
 .card:hover{
-    /* transform: scale(1.1); */
     box-shadow:0 0 45px rgb(176, 176, 176)
    
 }

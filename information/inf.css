@@ -2,26 +2,38 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #back-section {
     padding-top: 150px;
     padding-left: 50px;
 }
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 350px;
+}
+.theme-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
 .section-content a {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    color: var(--text-color);
-    background-color: var(--elements-color);
+    text-decoration: none;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     width: 140px;
-    padding: 15px 30px;
-    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 13px;
-    border-radius: 5px;
 }
 
 .back-content {
@@ -36,8 +48,7 @@ body {
 
 .main-items {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 100px;
 }
