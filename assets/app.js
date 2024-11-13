@@ -26,11 +26,11 @@ function displayCountry(countries) {
     displayCard.innerHTML = `
     
   <div class="card" style="width: 15rem; height: 22rem;">
-  <a href="/information/inf.html?name=${country.name.common}" class="back-link">
+  <a href="./information/inf.html?name=${country.name.common}" class="back-link">
             <img class="card-img-top" src="${country.flags.png}" alt="Card image cap">
            </a>
             <div class="card-body">
-              <h2 class="cardtitle"><a href="/information/inf.html" class='link'>${country.name.common}</a></h2>
+              <h2 class="cardtitle"><a href="./information/inf.html" class='link'>${country.name.common}</a></h2>
               <p class="card-text">Population: <span>${country.population}</span></p>
               <p class="card-text">Region: <span class='regionMain'>${country.region}</span></p>
               <p class="card-text">Capital: <span>${country.capital}</span></p>
